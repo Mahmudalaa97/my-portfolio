@@ -1,0 +1,314 @@
+body {
+    margin: 0;
+}
+.container{
+    width: 85%;
+    margin: 0px auto;   
+}
+
+.clr{
+    clear: both;
+}
+/* *{
+    box-sizing: border-box;
+} */
+/* start home */
+
+.home{
+    background-image: url(images/slider-02.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    
+    
+}
+.home .nav-text{
+    margin: 30px;
+    padding-left: 70px; 
+    color: red;
+    width: 100%;
+    float: left
+}
+.home .nav-link{
+    width: 80%;
+    float: right;
+    vertical-align: top;
+}
+.home .nav-link ul{
+    list-style-type: none;
+    padding-inline-start: 350px;
+}
+.home ul a{
+    color: white;
+    text-decoration: none;
+    width: 12%;
+    float: left;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: lighter;
+    padding-bottom: 50px;
+    
+    
+}
+/* .home ul li{
+    width: 115px;
+    float: ;
+} */
+
+
+
+
+.home-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 250px;
+    color: white
+ 
+}
+
+.home-content h1{
+color: red;
+font-family: 'Roboto', sans-serif;
+font-size: 60px;
+
+}
+.home-content h3{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.home-content p{
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+/* end home */
+/* start sec section */
+/* .test{
+    background-color: antiquewhite;
+} */
+.test{
+    width: 35%;
+    float: inline-start;
+    padding-left: 170px;
+    margin-top: 50px;
+   }
+   .test img{
+    height: 65%;
+    padding-left: 200px;
+    
+    /* border-width: 7px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(73, 71, 71);
+    border-inline-width: 5px; */
+   }
+   
+
+  
+
+   .test ul{
+    font-weight: bold;
+   }
+   .about .test button{
+    background-color: rgb(241, 90, 90);
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-size: large;
+   }
+   /* end sec section */
+    
+
+
+/* start services */
+.services{
+    margin-top: 70px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #f1f1f1f1;
+    
+}
+.services .serving-item{
+    
+    padding: 15px;
+    width: 22%;
+    float: left;
+   
+
+}
+
+    
+
+/* end services */
+
+/* start portoflio */
+.porto{
+    
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.porto li {
+    
+    
+    padding-top: 40px;
+    padding-right: 220px;
+    text-align: center;
+    
+    
+
+}
+.porto-title ul {
+   
+    list-style: none;
+    
+}
+.porto-title ul a {
+    text-decoration: none;
+}
+.porto-title button {
+    border: none;
+    background-color: transparent;
+    padding-top: 30px;
+    font-size: medium;
+}
+.custom-img{
+    width: 100%;
+    
+    margin-top: 50px;
+   
+    text-decoration: none;
+}
+.custom-img a img {
+    width: 29%;
+}
+/* end  portofolio*/
+/* start numer section */
+.number{
+    width: 100%;
+   
+    margin-top: 80px;
+    background-color: #f1f1f1f1; 
+    text-align: center;  
+}
+.number .num-item{
+    width: 23%;
+    padding-top: 70px;
+    float: left;
+    
+}
+.num-item h3{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.num-item p{
+    font-size: large;
+    font-weight: lighter;
+}
+/* start feed back */
+.feedback{
+    background-color: white;
+    width: 100%;
+    margin-top: 40px;
+}
+.feed-title{
+    text-align: center;
+}
+.feed-content{
+    background-color: #f1f1f1f1;
+    width: 65%;
+    
+    margin-top: 80px;
+    margin-left: 160px;
+    overflow: hidden;
+    padding-left: 25PX;
+    text-align: Left;
+}
+.feed-content a{
+    text-decoration: none;
+}
+.feed-content h3{
+    vertical-align: top;
+    
+}
+.feed-content img{
+    padding-top: 20px;
+}
+/* end feedback */
+/* start blog */
+.blog{
+    width: 100%;
+    margin-top: 90px;
+    background-color: #f1f1f1f1
+    
+}
+.blog-title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-top: 40px;
+}
+.blog-content{
+    padding-top: 50px;
+    text-align: left;
+    
+    
+}
+.blog-item a{
+    text-decoration: none;
+    color: black;
+}
+.blog-item{
+    width: 32.5%;
+    padding: 5px;
+    float: left;
+}
+.blog .blog-item img{
+    width: 100%;
+}
+.blog-item button{
+    border: none;
+    font-size: larger;
+}
+/* end blog */
+/* start contact us */
+.contact-title{
+    text-align: center;
+    font-size: xx-large;
+}
+.contact-item{
+    width: 30%;
+    margin-top: 50px;
+    padding-left: 450px;
+}
+.contact-item button{
+    background-color: #a94442;
+    color: white;
+    border-radius: 5px;
+    padding-left: 70px; 
+    
+}
+.contact-item input{
+    padding-right: 70px;
+    padding-top: auto;
+}
+/* end contact us */
+/* statrt footer */
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    margin-top: 70px;
+    text-align: center;
+    background-color: rgb(53, 48, 48);
+}
+.footer p{
+    color: white;
+    font-size: larger;
+    padding-top: 70px;
+}
+    

@@ -1,0 +1,313 @@
+
+
+.bg-navy{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding-top: 15px;
+    background-color: white;
+   
+    
+
+    
+}
+.home{
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.home-layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item .nav-link{
+    color: black;
+}
+.layer-content{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.type{
+    font-size: 50px;
+    font-weight: 300;
+    padding-right: 5px;
+}
+.type::after{
+    content: " ";
+    animation-name: typingskill;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 60px;
+    font-weight: 400;
+}
+@keyframes typingskill{
+0% { content: "|"; }
+2% { content: "D|"; }
+4% { content: "De|"; }
+6% { content: "Dev|"; }
+8% { content: "Deve|"; }
+10% { content: "Devel|"; }
+12% { content: "Develo|"; }
+14% { content: "Develop|"; }
+16%{ content: "Develope|"; }
+20%{ content: "Developer|"; }
+30% { content: "Developer|"; }
+30% { content: "Developer|"; }
+
+}
+.icons a{
+    color: white;
+}
+/* end home */
+.text-img{
+    width: 100%;
+    height: 50%;
+}
+/* end about */
+/* start-testmonial */
+
+/* end-testmonial */
+/* start-cabout */
+.content-about h3{
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 5px;
+    
+
+}
+h1 h2 h3 h4 h5 h6{
+    font-family: "Montserrat", sans-serif;
+}
+.span-style{
+font-size: medium;
+margin-bottom: 20px;
+letter-spacing: 2px;
+
+}
+.paragraph{
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+.skill-content{
+
+    padding-top: 10px;
+    position: relative;
+}
+.pull-right{
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.skill-content .pull-right h6{
+    position: absolute;
+    top: 8px;
+    color: white;
+}
+.skill-content span{
+    position: absolute;
+    top: 38px;
+    right: 35px;
+    color: white;
+}
+
+.btn{
+    width: 150px;
+    height: 45px;
+}
+a{
+    text-decoration: none;
+}
+a .btn .btn-light .btn-md:hover{
+    background-color: white;
+
+}
+/* end-about */
+
+
+/* start services */
+#services{
+    background-color: #f7f7f7;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.section-title .title h2{
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 60px;
+}
+
+
+.links-portofolio{
+    margin:  15px;
+    width: 40%;
+    position: relative;
+    position: absolute;
+    left: 41%;
+    padding-top: 20px;
+    display: flex;
+    justify-items: center;
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+
+.inner h4{
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 40px;
+}
+.inner{
+    position: relative;
+}
+.inner .icon i{
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+    position: absolute;
+    left: 40%;
+    bottom: 60%;
+}
+.inner:hover i {
+    background-color: black;
+    color: white;
+}
+/* end services */
+
+
+
+/* start porto */
+#portofolio{
+    margin-top: 70px;
+}
+/* end portofolio */
+
+
+
+
+
+
+
+
+
+/* start testomnial */
+.carusel-part{
+    
+    background-color: #f7f7f7;
+    padding: 100px;
+    position: relative;
+}
+.carusel-title h4{
+    background-image: url(../img/dots.png);
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 70px;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    bottom: 100%;
+    z-index: 5;
+}
+
+.carusel-content img{
+    width: 6%;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #869791;
+
+     }
+/* endtestmonial*/
+/* start counter */
+#ourteam{
+    background-color: #f7f7f7;
+}
+
+.section-icon h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+/* end counter */
+
+     
+/* start our team */
+.section-title h4{
+    background-image: url(../img/dots.png);
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 70px;
+}
+#ourteam{
+    padding-bottom: 100px;
+}
+    /* end our team */
+    
+    /* start contact us */
+    #footer{
+        position: relative;
+    }
+
+  
+
+.footer-title h4{
+    background-image: url(../img/dots.png);
+    font-size: 45px;
+    font-weight: 900;
+    width: 20%;
+    height: 5%;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+}
+.content-footer{
+    margin: 0;
+}
+.icon-footer{
+    padding-top: 90px;
+    
+}
+.inner .icon-footer i{
+        margin-bottom: 20px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        background-color: #f4f4f4;
+        border-radius: 50%;
+        transition: all 0.5s;
+        position: absolute;
+        left: 40%;
+        bottom: 60%;
+    }
+    .icon-footer i:hover{
+        background-color: black;
+        color: white;
+    }
+
+/* end ocontact us*/
